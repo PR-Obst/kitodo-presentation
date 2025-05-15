@@ -214,7 +214,7 @@ class CollectionController extends AbstractController
         }
 
         // output is done by show action
-        $this->forward('show', null, null, ['collection' => $collection, 'searchParams' => $searchParams]);
+        $this->forward('show', null, null, ['collection' => $collection, 'searchParameter' => $searchParams]);
 
     }
 
